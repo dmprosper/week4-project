@@ -1,0 +1,39 @@
+:root {
+    --heading-font-family: 'Redressed', cursive;
+    --default-font-family: 'Roboto', sans-serif;
+    --primary-color: rgb(210, 231, 185);
+    --secondary-color: rgb(109, 109, 204);
+
+
+}
+
+
+h1, h3 {
+    
+    text-align: center;
+    color: rgb(53, 14, 14);
+    background-color: var(--primary-color);
+    
+}
+
+h3 {
+    padding: 15px 5px;
+    font-family: var(--heading-font-family);
+ }
+
+ .hero {
+     padding: 20px 20px;
+ }
+.btn btn-primary {
+    background-color: green;
+   }
+ 
+     
+
+
+
+ 
+
+
+    
+
