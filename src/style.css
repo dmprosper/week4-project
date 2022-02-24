@@ -2,7 +2,7 @@
     --heading-font-family: 'Redressed', cursive;
     --default-font-family: 'Roboto', sans-serif;
     --primary-color: rgb(210, 231, 185);
-    --secondary-color: rgb(109, 109, 204);
+    --secondary-color: rgb(76, 136, 89);
 
 
 }
@@ -16,6 +16,10 @@ h1, h3 {
     
 }
 
+h2 {
+    font-size: 30px;
+}
+
 h3 {
     padding: 15px 5px;
     font-family: var(--heading-font-family);
@@ -27,7 +31,31 @@ h3 {
 .btn btn-primary {
     background-color: green;
    }
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
  
+.btn-branding {
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    color:#198754;
+    padding: 15px 30px;
+}
+
+.project-description {
+    padding: 20px;
+}
+@media (max-width: 896px) {
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+}
      
 
 
