@@ -8,7 +8,7 @@
 }
 
 
-h1, h3 {
+h1, h3, h4{
     
     text-align: center;
     color: rgb(53, 14, 14);
@@ -23,6 +23,7 @@ h2 {
 h3 {
     padding: 15px 5px;
     font-family: var(--heading-font-family);
+    font-size: 48px;
  }
 
  h4 {
